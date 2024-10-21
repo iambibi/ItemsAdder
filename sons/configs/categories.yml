@@ -1,0 +1,17 @@
+info:
+  namespace: sons
+items:
+  music_moskou:
+    display_name: moskou
+    lore:
+    - '&7Moskou'
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/moskou.png
+    behaviours:
+      music_disc:
+        song:
+          name: sons:musique.moskou
+          description: Moskou

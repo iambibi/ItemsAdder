@@ -1,0 +1,16 @@
+info:
+    namespace: settings
+font_images:
+    player_settings:
+        permission: "ayw.command.settings"
+        show_in_gui: true
+        suggest_in_command: false
+        path: "menus/player_settings.png"
+        y_position: 25
+    
+    mailbox_settings:
+        permission: "ayw.command.settings"
+        show_in_gui: true
+        suggest_in_command: false
+        path: "menus/mailbox_settings.png"
+        y_position: 25

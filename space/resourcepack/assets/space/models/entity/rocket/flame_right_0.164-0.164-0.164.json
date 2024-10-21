@@ -1,0 +1,10 @@
+{
+	"parent": "space:entity/rocket/flame_right",
+	"display": {
+		"head": {
+			"translation": [0, -5.8752, 0],
+			"scale": [0.164, 0.164, 0.164],
+			"rotation": [0, 0, 0]
+		}
+	}
+}

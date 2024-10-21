@@ -1,0 +1,29 @@
+{
+    "providers": [
+        {
+            "type": "reference",
+            "id": "openmc:include/space"
+        },
+        {
+            "type": "bitmap",
+            "file": "openmc:font/menu/player_mailbox.png",
+            "ascent": 22,
+            "height": 256,
+            "chars": ["\uE002"]
+        },
+	{
+            "type": "bitmap",
+            "file": "openmc:font/menu/mailbox_letter.png",
+            "ascent": 22,
+            "height": 256,
+            "chars": ["\uE003"]
+        },
+	{
+            "type": "bitmap",
+            "file": "openmc:font/menu/home_mailbox.png",
+            "ascent": 22,
+            "height": 256,
+            "chars": ["\uE004"]
+        }
+    ]
+}

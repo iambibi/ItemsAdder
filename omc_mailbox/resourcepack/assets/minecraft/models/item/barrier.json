@@ -1,0 +1,16 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/barrier"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 2000 }, "model": "openmc:menu/cancel_btn" },
+        { "predicate": { "custom_model_data": 2001 }, "model": "openmc:menu/accept_btn" },
+        { "predicate": { "custom_model_data": 2002 }, "model": "openmc:menu/refuse_btn" },
+        { "predicate": { "custom_model_data": 2003 }, "model": "openmc:menu/arrow_right" },
+        { "predicate": { "custom_model_data": 2004 }, "model": "openmc:menu/arrow_left" },
+        { "predicate": { "custom_model_data": 2005 }, "model": "openmc:menu/transparent" },
+        { "predicate": { "custom_model_data": 2006 }, "model": "openmc:menu/hourglass" },
+        { "predicate": { "custom_model_data": 2007 }, "model": "openmc:menu/paper_plane" }
+    ]
+}
