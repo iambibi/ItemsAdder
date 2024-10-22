@@ -1,0 +1,28 @@
+name: Deploy to SFTP
+
+on:
+  push:
+    branches:
+      - main  # Déployer à chaque fois qu'un changement est fait sur la branche main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install lftp
+        run: sudo apt-get install lftp
+
+      - name: Deploy files to SFTP server
+        env:
+          SFTP_HOST: ${{ secrets.SFTP_HOST }}
+          SFTP_USERNAME: ${{ secrets.SFTP_USERNAME }}
+          SFTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
+        run: |
+          lftp -e "
+          mirror --reverse --delete --verbose ./ /plugins/ItemsAdder/contents/;
+          bye
+          " -u $SFTP_USERNAME,$SFTP_PASSWORD $SFTP_HOST
