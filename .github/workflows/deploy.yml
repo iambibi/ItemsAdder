@@ -25,4 +25,4 @@ jobs:
           lftp -e "
           mirror --reverse --delete --verbose ./ /plugins/ItemsAdder/contents/;
           bye
-          " -u $SFTP_USERNAME,$SFTP_PASSWORD sftp://$SFTP_HOST
+          " -u $SFTP_USERNAME,$SFTP_PASSWORD sftp://$SFTP_HOST:2023
