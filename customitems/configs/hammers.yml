@@ -11,7 +11,8 @@ items:
       generate: false
       model_path: item/iron_hammer
     blocked_enchants:
-    - ALL
+      - FORTUNE
+      - SILK_TOUCH
     durability:
       max_custom_durability: 512
       
@@ -25,7 +26,8 @@ items:
       generate: false
       model_path: item/diamond_hammer
     blocked_enchants:
-    - ALL
+      - FORTUNE
+      - SILK_TOUCH
     durability:
       max_custom_durability: 2048
       
@@ -39,7 +41,8 @@ items:
       generate: false
       model_path: item/netherite_hammer
     blocked_enchants:
-    - ALL
+      - FORTUNE
+      - SILK_TOUCH
     durability:
       max_custom_durability: 4096
   
