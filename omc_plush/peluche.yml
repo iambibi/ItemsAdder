@@ -1,7 +1,7 @@
 info:
-  namespace: omc
+  namespace: omc_plush
 items:
-  peluche:
+  peluche_awyen:
     display_name: Aywen la peluche
     resource: 
       material: PAPER
