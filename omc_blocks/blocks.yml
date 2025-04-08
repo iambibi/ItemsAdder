@@ -113,3 +113,16 @@ items:
             name: BLOCK_STONE_PLACE
             volume: 1
             pitch: 1
+recipes:
+  crafting_table:
+    aywenite_block:
+      enabled: true
+      pattern:
+        - AAA
+        - AAA
+        - AAA
+      ingredients:
+        A: "omc_items:aywenite"
+      result:
+        item: "omc_blocks:aywenite_block"
+        amount: 1
