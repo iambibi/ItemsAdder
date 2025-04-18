@@ -11,3 +11,13 @@ items:
       material: PAPER
       textures:
         - aywenite.png
+recipes:
+  crafting_table:
+    aywenite:
+      enabled: true
+      shapeless: true
+      ingredients:
+        A: omc_blocks:aywenite_block
+      result:
+        item: omc_items:aywenite
+        amount: 9
