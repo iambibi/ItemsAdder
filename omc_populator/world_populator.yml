@@ -7,10 +7,10 @@ worlds_populators:
       - world
     replaceable_blocks:
       - DEEPSLATE
-    chunk_chance: 85.0
+    chunk_chance: 75.0
     max_height: 0
     min_height: -60
-    vein_blocks: 6
+    vein_blocks: 4
     chunk_veins: 9
   aywenite_ore:
     block: omc_blocks:aywenite_ore
@@ -18,7 +18,7 @@ worlds_populators:
       - world
     replaceable_blocks:
       - STONE
-    chunk_chance: 85.0
+    chunk_chance: 80.0
     max_height: 30
     min_height: 0
     vein_blocks: 3

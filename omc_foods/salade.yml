@@ -3,7 +3,6 @@ info:
 items:
   salade:
     display_name: Salade
-    permission: ayw.kebabier
     resource:
       material: DRIED_KELP
       generate: true

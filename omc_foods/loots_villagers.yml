@@ -25,3 +25,8 @@ loots:
           min_amount: 1
           max_amount: 1
           chance: 25
+        courgette:
+          item: omc_foods:courgette
+          min_amount: 1
+          max_amount: 1
+          chance: 25

@@ -3,7 +3,6 @@ info:
 items:
   tomate:
     display_name: Tomate
-    permission: ayw.kebabier
     resource:
       material: BEETROOT
       generate: true
