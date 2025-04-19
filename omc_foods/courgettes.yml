@@ -29,9 +29,23 @@ items:
     resource:
       material: MELON_SLICE
       generate: false
-      model_path: items/gratin_courgette
+      model_path: gratin_courgette
     events:
       eat:
         feed:
           amount: 3
           saturation: 0.5
+recipes:
+  crafting_table:
+    gratin_courgette:
+      enabled: true
+      pattern:
+        - AAA
+        - AAA
+        - BBB
+      ingredients:
+        A: "omc_foods:courgette"
+        B: "GLASS"
+      result:
+        item: "omc_foods:gratin_courgette"
+        amount: 1

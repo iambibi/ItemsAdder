@@ -6,7 +6,6 @@ items:
       lore:
         - "§8§oun mystérieux mélange..."
         - "§6Aucun Effet Secondaire!"
-      permission: the_mixture
       resource:
         material: MELON_SLICE
         generate: false

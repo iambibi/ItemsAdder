@@ -3,7 +3,6 @@ info:
 items:
   onion:
     display_name: Onion
-    permission: ayw.kebabier
     resource:
       material: PORKCHOP
       generate: true

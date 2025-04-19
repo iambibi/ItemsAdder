@@ -3,7 +3,6 @@ info:
 items:
   aywenite:
     display_name: §dAywenite
-    permission: aywenite
     lore:
       - "§7Un matériau exceptionnel"
     resource:

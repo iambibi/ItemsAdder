@@ -3,7 +3,6 @@ info:
 items:
   spatule:
     display_name: Spatule
-    permission: ayw.kebabier
     resource:
       material: IRON_SWORD
       generate: true

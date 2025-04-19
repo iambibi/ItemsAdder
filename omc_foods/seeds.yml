@@ -59,6 +59,14 @@ recipes:
       result:
         item: omc_foods:tomato_seeds
         amount: 3
+    courgette_seeds:
+      enabled: true
+      shapeless: true
+      ingredients:
+        A: omc_foods:courgette
+      result:
+        item: omc_foods:courgette_seed
+        amount: 3
     onion_seeds:
       enabled: true
       shapeless: true

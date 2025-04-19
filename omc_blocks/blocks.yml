@@ -3,7 +3,6 @@ info:
 items:
   aywenite_ore:
     display_name: §dMinerais d'Aywenite
-    permission: aywenite
     lore:
       - "§7Une découverte surprenante"
     resource:
@@ -45,7 +44,6 @@ items:
             max_amount: 3
   deepslate_aywenite_ore:
     display_name: §dMinerai d'Aywenite des Abimes
-    permission: aywenite
     lore:
       - "§7Une découverte surprenante"
     resource:
@@ -87,9 +85,8 @@ items:
             max_amount: 3
   aywenite_block:
     display_name: §dBloc d'Aywenite
-    permission: aywenite
     lore:
-      - "§7Une fusion de ce §dmatière unique"
+      - "§7Une fusion de cette §dmatière unique"
     resource:
       generate: true
       material: PAPER
