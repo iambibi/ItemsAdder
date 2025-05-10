@@ -17,7 +17,6 @@ items:
           length: 1
           height: 2
           width: 3
-          width_offset: 0.5
         placeable_on:
           walls: false
           ceiling: false
@@ -25,9 +24,5 @@ items:
         display_transformation:
           translation:
             x: 0
-            y: 0.92
+            y: 0.49
             z: 0
-          scale:
-            x: 1.5
-            y: 1.5
-            z: 1.5
