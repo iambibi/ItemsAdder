@@ -10,6 +10,21 @@ items:
       material: PAPER
       textures:
         - aywenite.png
+  mascot_stick:
+    display_name: Mascot Wand
+    resource:
+      material: STICK
+      model_path: items/msctt_wand
+  warp_stick:
+    display_name: Warp Wand
+    resource:
+      material: STICK
+      model_path: items/warp_wand
+  unknown_stick:
+    display_name: unknown wand
+    resource:
+      material: STICK
+      model_path: items/rndm_wand
 recipes:
   crafting_table:
     aywenite:

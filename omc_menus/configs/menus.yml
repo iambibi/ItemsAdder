@@ -7,21 +7,3 @@ font_images:
         suggest_in_command: false
         path: "confirm_menu.png"
         y_position: 16
-    adminshop:
-        permission: adminshop.menu
-        show_in_gui: true
-        suggestion_in_command: false
-        path: "adminshop.png"
-        y_position: 17
-    adminshop_category:
-        permission: adminshop.menu
-        show_in_gui: true
-        suggestion_in_command: false
-        path: "adminshop_category.png"
-        y_position: 17
-    adminshop_items:
-        permission: adminshop.menu
-        show_in_gui: true
-        suggestion_in_command: false
-        path: "adminshop_items.png"
-        y_position: 20

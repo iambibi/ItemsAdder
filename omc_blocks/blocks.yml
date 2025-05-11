@@ -110,6 +110,57 @@ items:
             name: BLOCK_STONE_PLACE
             volume: 1
             pitch: 1
+  ball_machine:
+    display_name: "Machine a Boule"
+    permission: blocks.ball_machine
+    resource:
+      material: PAPER
+      generate: false
+      model_path: items/ball_machin
+    behaviours:
+      furniture:
+        entity: item_display
+        solid: true
+        fixed_rotation: true
+        hitbox:
+          length: 1
+          height: 2
+          width: 1
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+        display_transformation:
+          translation:
+            x: 0
+            y: 0.50
+            z: 0
+  urne:
+    display_name: "Urne"
+    permission: blocks.urne
+    resource:
+      material: PAPER
+      generate: false
+      model_path: items/urne
+    behaviours:
+      furniture:
+        entity: item_display
+        solid: true
+        fixed_rotation: true
+        display_transformation:
+          right_rotation:
+          translation:
+            x: 0
+            y: 0.47
+            z: 0
+          scale:
+            x: 3
+            y: 3
+            z: 3
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
 recipes:
   crafting_table:
     aywenite_block:
@@ -122,4 +173,17 @@ recipes:
         A: "omc_items:aywenite"
       result:
         item: "omc_blocks:aywenite_block"
+        amount: 1
+    urne:
+      enabled: true
+      pattern:
+        - AAA
+        - APA
+        - SSS
+      ingredients:
+        A: "GLASS"
+        P: "PAPER"
+        S: "STONE_BRICKS"
+      result:
+        item: "omc_blocks:urne"
         amount: 1
