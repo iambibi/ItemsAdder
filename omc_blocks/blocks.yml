@@ -13,6 +13,7 @@ items:
     specific_properties:
       block:
         drop_when_mined: false
+        drop_on_silk_touch: true
         placed_model:
           type: REAL_NOTE
           break_particles: ITEM
@@ -56,6 +57,7 @@ items:
         hardness: 3
         no_explosion: false
         drop_when_mined: false
+        drop_on_silk_touch: true
         placed_model:
           type: REAL_NOTE
           break_particles: ITEM
