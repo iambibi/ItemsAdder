@@ -25,3 +25,9 @@ font_images:
         suggestion_in_command: false
         path: "adminshop_items.png"
         y_position: 20
+    settings:
+        permission: settings.menu
+        show_in_gui: true
+        suggestion_in_command: false
+        path: "settings.png"
+        y_position: 25
