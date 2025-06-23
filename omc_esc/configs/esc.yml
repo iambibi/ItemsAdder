@@ -3,7 +3,8 @@ info:
 minecraft_lang_overwrite:
   esc_menu_texts:
     entries:
-      "menu.disconnect": ":offset_-3::offset_-256::bottom_esc::offset_-256:"
+      "menu.game": ":openmc_logo:"
+      "menu.disconnect": ":offset_-12::offset_-256::bottom_esc::offset_-256:"
       "menu.returnToGame": ""
       "menu.options": ""
       "menu.sendFeedback": ""
