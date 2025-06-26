@@ -13,6 +13,12 @@ font_images:
     path: "font/openmc.png"
     scale_ratio: 60
     y_position: 60
+  openmc_logo:
+    permission: openmc_logo
+    show_in_gui: false
+    path: "font/openmc_logo.png"
+    scale_ratio: 80
+    y_position: 30
   aywenito:
     permission: aywenito
     show_in_gui: true

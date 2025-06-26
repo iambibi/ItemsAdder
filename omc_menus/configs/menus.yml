@@ -31,3 +31,9 @@ font_images:
         suggestion_in_command: false
         path: "settings.png"
         y_position: 25
+    mayor:
+        permission: mayor.menu
+        show_in_gui: true
+        suggestion_in_command: false
+        path: "mayor.png"
+        y_position: 60
