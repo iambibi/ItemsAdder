@@ -1,0 +1,1 @@
+Les fichiers .glsl contiennent le logo de openmc dedans, ils sont généres automatiquement par le script python, avec des core shaders on ne peut pas importer des images c'est pour cela que l'on doit utiliser des fichiers glsl. C'est découpé en deux fichiers car minecraft à une limitation de taille des shaders.
