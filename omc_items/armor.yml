@@ -49,6 +49,17 @@ items:
       id: omc_items:suit_armor
       slot_attribute_modifiers:
         armor: 1
+  aywen_cap:
+    name: Aywen Cap
+    resource:
+      generate: false
+      model_path: armor/aywen_cap
+      material: IRON_HELMET
+    durability:
+      max_durability: 2010
+    equipment:
+      slot_attribute_modifiers:
+        armor: 6
 equipments:
   suit_armor:
     type: armor
