@@ -141,7 +141,6 @@ items:
             z: 0
   urne:
     display_name: "Urne"
-    permission: blocks.urne
     resource:
       material: PAPER
       generate: false
