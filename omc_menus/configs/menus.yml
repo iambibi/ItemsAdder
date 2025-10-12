@@ -36,4 +36,22 @@ font_images:
         show_in_gui: true
         suggestion_in_command: false
         path: "mayor.png"
-        y_position: 60
+        y_position: 25
+    home_mailbox:
+        permission: mailbox.home
+        show_in_gui: true
+        suggestion_in_command: false
+        path: "home_mailbox.png"
+        y_position: 25
+    player_mailbox:
+        permission: mailbox.player
+        show_in_gui: true
+        suggestion_in_command: false
+        path: "player_mailbox.png"
+        y_position: 25
+    letter_mailbox:
+        permission: mailbox.letter
+        show_in_gui: true
+        suggestion_in_command: false
+        path: "letter_mailbox.png"
+        y_position: 25
