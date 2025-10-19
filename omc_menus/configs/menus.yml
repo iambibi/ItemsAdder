@@ -61,3 +61,21 @@ font_images:
         suggestion_in_command: false
         path: "city_template6x9.png"
         y_position: 30
+    home_mailbox:
+        permission: mailbox.home
+        show_in_gui: true
+        suggestion_in_command: false
+        path: "home_mailbox.png"
+        y_position: 22
+    player_mailbox:
+        permission: mailbox.player
+        show_in_gui: true
+        suggestion_in_command: false
+        path: "player_mailbox.png"
+        y_position: 22
+    letter_mailbox:
+        permission: mailbox.letter
+        show_in_gui: true
+        suggestion_in_command: false
+        path: "letter_mailbox.png"
+        y_position: 22
