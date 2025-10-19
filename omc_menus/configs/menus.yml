@@ -37,3 +37,27 @@ font_images:
         suggestion_in_command: false
         path: "mayor.png"
         y_position: 60
+    city_mainmenu:
+        permission: city.mainmenu
+        show_in_gui: true
+        suggestion_in_command: false
+        path: "city_mainmenu.png"
+        y_position: 30
+    city_template3x9:
+        permission: city.template3x9
+        show_in_gui: true
+        suggestion_in_command: false
+        path: "city_template3x9.png"
+        y_position: 59
+    city_template5x9:
+        permission: city.template5x9
+        show_in_gui: true
+        suggestion_in_command: false
+        path: "city_template5x9.png"
+        y_position: 30
+    city_template6x9:
+        permission: city.template6x9
+        show_in_gui: true
+        suggestion_in_command: false
+        path: "city_template6x9.png"
+        y_position: 30
