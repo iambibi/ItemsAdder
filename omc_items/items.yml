@@ -7,7 +7,7 @@ items:
       - "§7Un matériau exceptionnel"
     resource:
       generate: true
-      material: PAPER
+      material: EMERALD
       textures:
         - aywenite.png
   mascot_stick:
