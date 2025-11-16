@@ -45,6 +45,8 @@ items:
       generate: false
       material: DIAMOND_PICKAXE
       model_path: items/spawner_extractor
+    blocked_enchants:
+      - ALL
     events:
       block_break:
         decrement_durability:
