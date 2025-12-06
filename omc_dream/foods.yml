@@ -1,0 +1,208 @@
+info:
+  namespace: omc_dream
+items:
+  moon_fish:
+    display_name: Poisson-lune
+    resource:
+      material: SALMON
+      generate: true
+      textures:
+        - fishes/moon_fish.png
+    events:
+      eat:
+        feed:
+          amount: 2
+          saturation: 0.4
+  sun_fish:
+    display_name: Poisson-soleil
+    resource:
+      material: COOKED_SALMON
+      generate: true
+      textures:
+        - fishes/sun_fish.png
+    lore:
+      - '§7Attention! Vous risquez'
+      - '§7de vous brulez!'
+    events:
+      eat:
+        feed:
+          amount: 6
+          saturation: 9.6
+
+  poissonion:
+    display_name: Poissonion
+    resource:
+      material: COD
+      generate: true
+      textures:
+        - fishes/poissonion.png
+    lore:
+      - '§7On dirait un onion...'
+    events:
+      eat:
+        feed:
+          amount: 2
+          saturation: 0.4
+
+  cooked_poissonion:
+    display_name: Poissonion cuit
+    resource:
+      material: COOKED_COD
+      generate: true
+      textures:
+        - fishes/cooked_poissonion.png
+    lore:
+      - '§7Mot du dev:'
+      - '§7Il est plus beau cru'
+    events:
+      eat:
+        feed:
+          amount: 5
+          saturation: 6
+
+  dockerfish:
+    display_name: Poisson Docker
+    resource:
+      material: COD
+      generate: true
+      textures:
+        - fishes/dockerfish.png
+    events:
+      eat:
+        feed:
+          amount: 2
+          saturation: 0.4
+
+  chips_aywen:
+    display_name: Chips goût Aywen
+    resource:
+      material: PAPER
+      generate: false
+      model_path: consumable/chips_aywen
+    lore:
+      - '§7Les joueurs aiment tellement Aywen'
+      - "§7malgré qu'il ait joué meme pas 1h30"
+    events:
+      eat:
+        feed:
+          amount: 15
+          saturation: 3
+
+  chips_dihydrogene:
+    display_name: Chips goût Dihydrogene
+    resource:
+      material: PAPER
+      generate: false
+      model_path: consumable/chips_dihydrogene
+    lore:
+      - '§7Attention explosif!'
+    events:
+      eat:
+        feed:
+          amount: 15
+          saturation: 3
+
+  chips_jimmy:
+    display_name: Chips goût Jimmy
+    resource:
+      material: PAPER
+      generate: false
+      model_path: consumable/chips_jimmy
+    lore:
+      - '§7R.I.P Jimmy'
+      - '§7Root est son successeur'
+    events:
+      eat:
+        feed:
+          amount: 15
+          saturation: 3
+
+  chips_lait_2_margouta:
+    display_name: Chips goût Lait de Margouta
+    resource:
+      material: PAPER
+      generate: false
+      model_path: consumable/chips_lait_2_margouta
+    lore:
+      - '§7Miam'
+    events:
+      eat:
+        feed:
+          amount: 20
+          saturation: 3
+
+  chips_nature:
+    display_name: Chips goût Nature
+    resource:
+      material: PAPER
+      generate: false
+      model_path: consumable/chips_nature
+    lore:
+      - '§7Basique, simple'
+    events:
+      eat:
+        feed:
+          amount: 10
+          saturation: 3
+
+  chips_sans_plomb:
+    display_name: Chips goût Sans Plomb 95
+    resource:
+      material: PAPER
+      generate: false
+      model_path: consumable/chips_sans_plomb
+    lore:
+      - '§7La hausse de prix....'
+    events:
+      eat:
+        feed:
+          amount: 15
+          saturation: 3
+
+  chips_terre:
+    display_name: Chips goût Terre
+    resource:
+      material: PAPER
+      generate: false
+      model_path: consumable/chips_terre
+    lore:
+      - '§7pourquoi pas'
+    events:
+      eat:
+        feed:
+          amount: 15
+          saturation: 3
+recipes:
+  cooking:
+    sun_fish:
+      ingredient:
+        item: omc_dream:moon_fish
+      exp: 1
+      machines:
+        - FURNACE
+        - SMOKER
+      result:
+        item: omc_dream:sun_fish
+        amount: 1
+    poissonion:
+      ingredient:
+        item: omc_dream:poissonion
+      exp: 1
+      machines:
+        - FURNACE
+        - SMOKER
+      result:
+        item: omc_dream:cooked_poissonion
+        amount: 1
+  crafting_table:
+    kebab:
+      enabled: true
+      shapeless: true
+      ingredients:
+        A: omc_foods:salade
+        B: omc_foods:tomate
+        C: omc_dream:cooked_poissonion
+        D: BREAD
+      result:
+        item: omc_foods:kebab
+        amount: 1
