@@ -13,6 +13,12 @@ font_images:
     path: "font/openmc.png"
     scale_ratio: 60
     y_position: 60
+  dream_openmc:
+    permission: server-icon
+    show_in_gui: false
+    path: "font/dream_openmc.png"
+    scale_ratio: 80
+    y_position: 60
   openmc_logo:
     permission: openmc_logo
     show_in_gui: false
