@@ -8,11 +8,10 @@ items:
       generate: true
       textures:
         - fishes/moon_fish.png
-    events:
-      eat:
-        feed:
-          amount: 2
-          saturation: 0.4
+    consumable:
+      nutrition: 2
+      saturation: 0.4
+
   sun_fish:
     display_name: Poisson-soleil
     resource:
@@ -23,11 +22,9 @@ items:
     lore:
       - '§7Attention! Vous risquez'
       - '§7de vous brulez!'
-    events:
-      eat:
-        feed:
-          amount: 6
-          saturation: 9.6
+    consumable:
+      nutrition: 6
+      saturation: 9.6
 
   poissonion:
     display_name: Poissonion
@@ -38,11 +35,9 @@ items:
         - fishes/poissonion.png
     lore:
       - '§7On dirait un onion...'
-    events:
-      eat:
-        feed:
-          amount: 2
-          saturation: 0.4
+    consumable:
+      nutrition: 2
+      saturation: 0.4
 
   cooked_poissonion:
     display_name: Poissonion cuit
@@ -54,11 +49,9 @@ items:
     lore:
       - '§7Mot du dev:'
       - '§7Il est plus beau cru'
-    events:
-      eat:
-        feed:
-          amount: 5
-          saturation: 6
+    consumable:
+      nutrition: 5
+      saturation: 6
 
   dockerfish:
     display_name: Poisson Docker
@@ -67,11 +60,9 @@ items:
       generate: true
       textures:
         - fishes/dockerfish.png
-    events:
-      eat:
-        feed:
-          amount: 2
-          saturation: 0.4
+    consumable:
+      nutrition: 2
+      saturation: 0.4
 
   chips_aywen:
     display_name: Chips goût Aywen
@@ -82,11 +73,9 @@ items:
     lore:
       - '§7Les joueurs aiment tellement Aywen'
       - "§7malgré qu'il ait joué meme pas 1h30"
-    events:
-      eat:
-        feed:
-          amount: 15
-          saturation: 3
+    consumable:
+      nutrition: 15
+      saturation: 3
 
   chips_dihydrogene:
     display_name: Chips goût Dihydrogene
@@ -96,11 +85,9 @@ items:
       model_path: consumable/chips_dihydrogene
     lore:
       - '§7Attention explosif!'
-    events:
-      eat:
-        feed:
-          amount: 15
-          saturation: 3
+    consumable:
+      nutrition: 15
+      saturation: 3
 
   chips_jimmy:
     display_name: Chips goût Jimmy
@@ -111,11 +98,9 @@ items:
     lore:
       - '§7R.I.P Jimmy'
       - '§7Root est son successeur'
-    events:
-      eat:
-        feed:
-          amount: 15
-          saturation: 3
+    consumable:
+      nutrition: 15
+      saturation: 3
 
   chips_lait_2_margouta:
     display_name: Chips goût Lait de Margouta
@@ -125,11 +110,9 @@ items:
       model_path: consumable/chips_lait_2_margouta
     lore:
       - '§7Miam'
-    events:
-      eat:
-        feed:
-          amount: 20
-          saturation: 3
+    consumable:
+      nutrition: 20
+      saturation: 3
 
   chips_nature:
     display_name: Chips goût Nature
@@ -139,11 +122,9 @@ items:
       model_path: consumable/chips_nature
     lore:
       - '§7Basique, simple'
-    events:
-      eat:
-        feed:
-          amount: 10
-          saturation: 3
+    consumable:
+      nutrition: 10
+      saturation: 3
 
   chips_sans_plomb:
     display_name: Chips goût Sans Plomb 95
@@ -153,11 +134,9 @@ items:
       model_path: consumable/chips_sans_plomb
     lore:
       - '§7La hausse de prix....'
-    events:
-      eat:
-        feed:
-          amount: 15
-          saturation: 3
+    consumable:
+      nutrition: 15
+      saturation: 3
 
   chips_terre:
     display_name: Chips goût Terre
@@ -167,11 +146,9 @@ items:
       model_path: consumable/chips_terre
     lore:
       - '§7pourquoi pas'
-    events:
-      eat:
-        feed:
-          amount: 15
-          saturation: 3
+    consumable:
+      nutrition: 15
+      saturation: 3
 recipes:
   cooking:
     sun_fish:
