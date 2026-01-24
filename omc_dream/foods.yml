@@ -139,7 +139,6 @@ items:
       saturation: 3
 
   chips_terre:
-    enabled: true
     display_name: Chips goût Terre
     resource:
       material: PAPER
