@@ -9,6 +9,7 @@ items:
       model_path: "minecraft:item/sculk"
     lore:
       - "§7§oDu sculk qui a vécu..."
+    tooltip_style: "omc_tooltips:tooltip/common"
 
   old_pale_oak:
     display_name: "§fVieux chêne pale"
@@ -18,6 +19,7 @@ items:
       model_path: "minecraft:block/pale_oak_wood"
     lore:
       - "§7§o... et qui a subit des crises."
+    tooltip_style: "omc_tooltips:tooltip/common"
 
   corrupted_string:
     display_name: "§fFil Corrompu"
@@ -26,6 +28,7 @@ items:
       textures:
         - minecraft:item/string.png
       material: PAPER
+    tooltip_style: "omc_tooltips:tooltip/common"
 
   creaking_heart:
     display_name: "§fCoeur de Creaking"
@@ -36,6 +39,7 @@ items:
       material: PAPER
     lore:
       - "§7§oun coeur frais."
+    tooltip_style: "omc_tooltips:tooltip/rare"
 
   old_creaking_axe:
     display_name: "Vieille Hache du Creaking"
@@ -49,6 +53,7 @@ items:
       mainhand:
         attackDamage: 4
         attackSpeed: 1.4
+    tooltip_style: "omc_tooltips:tooltip/common"
 
   soul_axe:
     display_name: "Hache des Ames"
@@ -62,6 +67,7 @@ items:
       mainhand:
         attackDamage: 9
         attackSpeed: 1.1
+    tooltip_style: "omc_tooltips:tooltip/rare"
 
   soul:
     display_name: "Ame"
@@ -70,6 +76,7 @@ items:
       textures:
         - others/soul
       material: PAPER
+    tooltip_style: "omc_tooltips:tooltip/rare"
 
   cloud_fishing_rod:
     name: Cloud Fishing Rod
@@ -80,12 +87,14 @@ items:
         cast: tools/cloud_rod/cloud_rod_cast
     durability:
       unbreakable: true
+    tooltip_style: "omc_tooltips:tooltip/epic"
 
   meteo_wand:
     display_name: Meteo Wand
     resource:
       material: STICK
       model_path: tools/meteo_wand
+    tooltip_style: "omc_tooltips:tooltip/legendary"
 
   cloud_key:
     display_name: Cloud Key
@@ -94,6 +103,7 @@ items:
       generate: true
       textures:
         - others/cloud_key
+    tooltip_style: "omc_tooltips:tooltip/rare"
 
   somnifere:
     display_name: Somnifère
@@ -105,6 +115,7 @@ items:
         - others/somnifere
       lore:
         - '§7Vous allez faire un gros dodo'
+    tooltip_style: "omc_tooltips:tooltip/rare"
 
   metal_detector:
     display_name: "Détecteur de Métaux"
@@ -112,9 +123,10 @@ items:
       generate: false
       material: STICK
       model_path: tools/metal_detector
+    tooltip_style: "omc_tooltips:tooltip/epic"
 
   ewenite:
-    display_name: §5Ewenite
+    display_name: Ewenite
     lore:
       - "§7Un matériau pas ouf"
     resource:
@@ -123,7 +135,7 @@ items:
       textures:
         - others/ewenite.png
     nbt: '{"PublicBukkitValues":{"openmc:to_dream_item": "omc_dream:ewenite"}}'
-
+    tooltip_style: "omc_tooltips:tooltip/onirique"
   crystallized_pickaxe:
     display_name: "Pioche Crysalisée"
     resource:
@@ -133,6 +145,7 @@ items:
         - tools/crystalized_pickaxe
     durability:
       unbreakable: true
+    tooltip_style: "omc_tooltips:tooltip/legendary"
 
   mecanic_pickaxe:
     display_name: "Pioche Mécanisé"
@@ -142,6 +155,7 @@ items:
       model_path: tools/mecanic_pickaxe
     durability:
       unbreakable: true
+    tooltip_style: "omc_tooltips:tooltip/legendary"
 
   glacite:
     display_name: "§fGlacite"
@@ -149,6 +163,7 @@ items:
       material: PAPER
       generate: false
       model_path: "minecraft:block/blue_ice"
+    tooltip_style: "omc_tooltips:tooltip/epic"
 
   coal_burn:
     display_name: "§fCharbon brulé"
@@ -156,6 +171,7 @@ items:
       material: PAPER
       generate: false
       model_path: "minecraft:item/charcoal"
+    tooltip_style: "omc_tooltips:tooltip/epic"
 
   hard_stone:
     display_name: "§fPierre dure"
@@ -163,6 +179,7 @@ items:
       material: DEEPSLATE
       generate: false
       model_path: "minecraft:item/deepslate"
+    tooltip_style: "omc_tooltips:tooltip/common"
 
   crafting_table:
     display_name: "§fTable de Craft"
@@ -170,6 +187,7 @@ items:
       material: CRAFTING_TABLE
       generate: false
       model_path: "minecraft:item/crafting_table"
+    tooltip_style: "omc_tooltips:tooltip/common"
 
   eternal_campfire:
     display_name: "§fFeu de Camp Eternel"
@@ -177,3 +195,4 @@ items:
       material: CAMPFIRE
       generate: false
       model_path: "minecraft:item/campfire"
+    tooltip_style: "omc_tooltips:tooltip/epic"

@@ -11,6 +11,7 @@ items:
     consumable:
       nutrition: 2
       saturation: 0.4
+    tooltip_style: "omc_tooltips:tooltip/rare"
 
   sun_fish:
     display_name: Poisson-soleil
@@ -25,6 +26,7 @@ items:
     consumable:
       nutrition: 6
       saturation: 9.6
+    tooltip_style: "omc_tooltips:tooltip/rare"
 
   poissonion:
     display_name: Poissonion
@@ -38,6 +40,7 @@ items:
     consumable:
       nutrition: 2
       saturation: 0.4
+    tooltip_style: "omc_tooltips:tooltip/rare"
 
   cooked_poissonion:
     display_name: Poissonion cuit
@@ -52,6 +55,7 @@ items:
     consumable:
       nutrition: 5
       saturation: 6
+    tooltip_style: "omc_tooltips:tooltip/rare"
 
   dockerfish:
     display_name: Poisson Docker
@@ -63,6 +67,7 @@ items:
     consumable:
       nutrition: 2
       saturation: 0.4
+    tooltip_style: "omc_tooltips:tooltip/rare"
 
   chips_aywen:
     display_name: Chips goût Aywen
@@ -76,6 +81,7 @@ items:
     consumable:
       nutrition: 15
       saturation: 3
+    tooltip_style: "omc_tooltips:tooltip/epic"
 
   chips_dihydrogene:
     display_name: Chips goût Dihydrogene
@@ -88,6 +94,7 @@ items:
     consumable:
       nutrition: 15
       saturation: 3
+    tooltip_style: "omc_tooltips:tooltip/epic"
 
   chips_jimmy:
     display_name: Chips goût Jimmy
@@ -101,6 +108,7 @@ items:
     consumable:
       nutrition: 15
       saturation: 3
+    tooltip_style: "omc_tooltips:tooltip/epic"
 
   chips_lait_2_margouta:
     display_name: Chips goût Lait de Margouta
@@ -113,6 +121,7 @@ items:
     consumable:
       nutrition: 20
       saturation: 3
+    tooltip_style: "omc_tooltips:tooltip/epic"
 
   chips_nature:
     display_name: Chips goût Nature
@@ -125,6 +134,7 @@ items:
     consumable:
       nutrition: 10
       saturation: 3
+    tooltip_style: "omc_tooltips:tooltip/epic"
 
   chips_sans_plomb:
     display_name: Chips goût Sans Plomb 95
@@ -137,6 +147,7 @@ items:
     consumable:
       nutrition: 15
       saturation: 3
+    tooltip_style: "omc_tooltips:tooltip/epic"
 
   chips_terre:
     display_name: Chips goût Terre
@@ -149,6 +160,7 @@ items:
     consumable:
       nutrition: 15
       saturation: 3
+    tooltip_style: "omc_tooltips:tooltip/epic"
 recipes:
   cooking:
     sun_fish:
