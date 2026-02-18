@@ -12,7 +12,7 @@ equipments:
   cloud_armor:
     type: armor
     layer_1: armor/cloud/cloud_layer_1
-    layer_2: armor/cloud/cloud_layer_1_e
+    layer_2: armor/cloud/cloud_layer_2
   cold_armor:
     type: armor
     layer_1: armor/cold/cold_armor_layer_1
@@ -67,6 +67,7 @@ items:
       legacy_armor_rendering_id: omc_dream:old_creaking_armor_shader
       slot_attribute_modifiers:
         armor: 1
+    tooltip_style: "omc_tooltips:tooltip/common"
 
   old_creaking_chestplate:
     display_name: "§fVieux Plastron de Creaking"
@@ -84,6 +85,7 @@ items:
       legacy_armor_rendering_id: omc_dream:old_creaking_armor_shader
       slot_attribute_modifiers:
         armor: 1
+    tooltip_style: "omc_tooltips:tooltip/common"
 
   old_creaking_leggings:
     display_name: "§fVieux Pantalon de Creaking"
@@ -101,6 +103,7 @@ items:
       legacy_armor_rendering_id: omc_dream:old_creaking_armor_shader
       slot_attribute_modifiers:
         armor: 1
+    tooltip_style: "omc_tooltips:tooltip/common"
 
   old_creaking_boots:
     display_name: "§fVieille Botte de Creaking"
@@ -118,6 +121,7 @@ items:
       legacy_armor_rendering_id: omc_dream:old_creaking_armor_shader
       slot_attribute_modifiers:
         armor: 1
+    tooltip_style: "omc_tooltips:tooltip/common"
 
   soul_helmet:
     display_name: Casque des Ames
@@ -130,6 +134,7 @@ items:
     equipment:
       slot_attribute_modifiers:
         armor: 2.5
+    tooltip_style: "omc_tooltips:tooltip/rare"
 
   soul_chestplate:
     display_name: Plastron des Ames
@@ -145,6 +150,7 @@ items:
       legacy_armor_rendering_id: omc_dream:soul_armor_shader
       slot_attribute_modifiers:
         armor: 2.5
+    tooltip_style: "omc_tooltips:tooltip/rare"
 
   soul_leggings:
     display_name: Jambière des Ames
@@ -160,6 +166,7 @@ items:
       legacy_armor_rendering_id: omc_dream:soul_armor_shader
       slot_attribute_modifiers:
         armor: 2.5
+    tooltip_style: "omc_tooltips:tooltip/rare"
 
   soul_boots:
     display_name: Bottes des Ames
@@ -175,6 +182,7 @@ items:
       legacy_armor_rendering_id: omc_dream:soul_armor_shader
       slot_attribute_modifiers:
         armor: 2.5
+    tooltip_style: "omc_tooltips:tooltip/rare"
 
   cloud_helmet:
     display_name: Casque des Nuages
@@ -190,6 +198,7 @@ items:
       legacy_armor_rendering_id: omc_dream:cloud_armor_shader
       slot_attribute_modifiers:
         armor: 4
+    tooltip_style: "omc_tooltips:tooltip/epic"
 
   cloud_chestplate:
     display_name: Plastron des Nuages
@@ -205,6 +214,7 @@ items:
       legacy_armor_rendering_id: omc_dream:cloud_armor_shader
       slot_attribute_modifiers:
         armor: 4
+    tooltip_style: "omc_tooltips:tooltip/epic"
 
   cloud_leggings:
     display_name: Jambière des Nuages
@@ -220,6 +230,7 @@ items:
       legacy_armor_rendering_id: omc_dream:cloud_armor_shader
       slot_attribute_modifiers:
         armor: 4
+    tooltip_style: "omc_tooltips:tooltip/epic"
 
   cloud_boots:
     display_name: Bottes des Nuages
@@ -235,6 +246,7 @@ items:
       legacy_armor_rendering_id: omc_dream:cloud_armor_shader
       slot_attribute_modifiers:
         armor: 4
+    tooltip_style: "omc_tooltips:tooltip/epic"
 
   cold_helmet:
     display_name: Casque Glacé
@@ -250,6 +262,7 @@ items:
       legacy_armor_rendering_id: omc_dream:cold_armor_shader
       slot_attribute_modifiers:
         armor: 5
+    tooltip_style: "omc_tooltips:tooltip/legendary"
 
   cold_chestplate:
     display_name: Plastron Glacé
@@ -265,6 +278,7 @@ items:
       legacy_armor_rendering_id: omc_dream:cold_armor_shader
       slot_attribute_modifiers:
         armor: 5
+    tooltip_style: "omc_tooltips:tooltip/legendary"
 
   cold_leggings:
     display_name: Jambière Glacée
@@ -280,6 +294,7 @@ items:
       legacy_armor_rendering_id: omc_dream:cold_armor_shader
       slot_attribute_modifiers:
         armor: 5
+    tooltip_style: "omc_tooltips:tooltip/legendary"
 
   cold_boots:
     display_name: Bottes Glacées
@@ -295,6 +310,7 @@ items:
       legacy_armor_rendering_id: omc_dream:cold_armor_shader
       slot_attribute_modifiers:
         armor: 5
+    tooltip_style: "omc_tooltips:tooltip/legendary"
 
   dream_helmet:
     display_name: Casque Onirique
@@ -313,6 +329,7 @@ items:
       legacy_armor_rendering_id: omc_dream:dream_armor_shader
       slot_attribute_modifiers:
         armor: 7
+    tooltip_style: "omc_tooltips:tooltip/onirique"
 
   dream_chestplate:
     display_name: Plastron Onirique
@@ -331,6 +348,7 @@ items:
       legacy_armor_rendering_id: omc_dream:dream_armor_shader
       slot_attribute_modifiers:
         armor: 7
+    tooltip_style: "omc_tooltips:tooltip/onirique"
 
   dream_leggings:
     display_name: Jambière Onirique
@@ -349,6 +367,7 @@ items:
       legacy_armor_rendering_id: omc_dream:dream_armor_shader
       slot_attribute_modifiers:
         armor: 7
+    tooltip_style: "omc_tooltips:tooltip/onirique"
 
   dream_boots:
     display_name: Bottes Onirique
@@ -367,6 +386,7 @@ items:
       legacy_armor_rendering_id: omc_dream:dream_armor_shader
       slot_attribute_modifiers:
         armor: 7
+    tooltip_style: "omc_tooltips:tooltip/onirique"
 
   pyjama_helmet:
     display_name: Casque de Pyjama
@@ -380,6 +400,7 @@ items:
       legacy_armor_rendering_id: omc_dream:pyjama_armor_shader
       slot_attribute_modifiers:
         armor: 1
+    tooltip_style: "omc_tooltips:tooltip/rare"
 
   pyjama_chestplate:
     display_name: Plastron de Pyjama
@@ -393,6 +414,7 @@ items:
       legacy_armor_rendering_id: omc_dream:pyjama_armor_shader
       slot_attribute_modifiers:
         armor: 1
+    tooltip_style: "omc_tooltips:tooltip/rare"
 
   pyjama_leggings:
     display_name: Jambière de Pyjama
@@ -406,6 +428,7 @@ items:
       legacy_armor_rendering_id: omc_dream:pyjama_armor_shader
       slot_attribute_modifiers:
         armor: 1
+    tooltip_style: "omc_tooltips:tooltip/rare"
 
   pyjama_boots:
     display_name: Bottes de Pyjama
@@ -419,3 +442,4 @@ items:
       legacy_armor_rendering_id: omc_dream:pyjama_armor_shader
       slot_attribute_modifiers:
         armor: 1
+    tooltip_style: "omc_tooltips:tooltip/rare"
